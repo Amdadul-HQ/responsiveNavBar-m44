@@ -1,0 +1,41 @@
+[
+    {
+      "id": 1,
+      "name": "Basic Membership",
+      "description": "Access to basic gym facilities.",
+      "price": 29.99,
+      "duration": "monthly",
+      "img":"./img/gold.jpg",
+      "features": [
+        "Access to cardio machines",
+        "Access to weightlifting equipment",
+        "Locker room access"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Premium Membership",
+      "description": "Access to premium gym facilities and additional classes.",
+      "price": 49.99,
+      "duration": "monthly",
+      "img":"./img/basic.jpg",
+      "features": [
+        "Access to all basic membership features",
+        "Access to premium gym facilities",
+        "Access to group fitness classes"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Annual Membership",
+      "description": "Access to gym facilities for one year.",
+      "price": 499.99,
+      "duration": "yearly",
+      "img":"./img/primium.jpg",
+      "features": [
+        "Access to all basic membership features",
+        "Discount on personal training sessions",
+        "Priority booking for classes"
+      ]
+    }
+  ]
