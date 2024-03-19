@@ -18,13 +18,13 @@ const Header = () => {
 
         <header className='max-w-screen-xl mx-auto px-3 lg:px-0'>
             <nav className='flex justify-between md:items-center lg:py-5 py-4 overflow-x-hidden'>
-                <h1 className='text-5xl font-bold'>King Gym</h1>
+                <h1 className='text-5xl font-bold text-white'>King Gym</h1>
                 <div>
                     <button onClick={() => setMenuOpen(!menuOpen)} >{
-                            menuOpen ? <CgMenu className="text-4xl  ml-8 md:hidden mt-4"></CgMenu> :  <IoClose className="text-4xl ml-8 md:hidden mt-4" ></IoClose>                 
+                            menuOpen ? <CgMenu className="text-4xl text-white ml-8 md:hidden mt-4"></CgMenu> :  <IoClose className="text-4xl ml-8 md:hidden mt-4 text-white" ></IoClose>                 
                     }</button>
-                        <ul  className={`md:flex bg-sky-300 md:static  transition-all duration-500 fixed  ${ menuOpen ? '-right-96' : 'right-0'}
-                         p-5 text-xl font-semibold `}>
+                        <ul  className={`md:flex md:static bg-[#050715]  transition-all duration-500 fixed  ${ menuOpen ? '-right-96' : 'right-0'}
+                         p-5 text-lg font-normal `}>
                             {
                             routes.map( route => <Link key={route.id} route={route}></Link>)
                             }

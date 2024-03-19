@@ -6,7 +6,7 @@ const Link = ({route}) => {
     const {path,name} = route
 
     return (
-        <li className='md:mr-6'><a href={path} >{name}</a></li> 
+        <li className='md:mr-6 text-white hover:text-[#5E3AD4]  transition-all'><a href={path} >{name}</a></li> 
     );
 };
 

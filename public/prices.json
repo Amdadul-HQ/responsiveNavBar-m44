@@ -4,7 +4,7 @@
       "name": "Basic Membership",
       "description": "Access to basic gym facilities.",
       "price": 29.99,
-      "duration": "monthly",
+      "duration": "Monthly",
       "img":"./img/gold.jpg",
       "features": [
         "Access to cardio machines",
@@ -17,7 +17,7 @@
       "name": "Premium Membership",
       "description": "Access to premium gym facilities and additional classes.",
       "price": 49.99,
-      "duration": "monthly",
+      "duration": "Monthly",
       "img":"./img/basic.jpg",
       "features": [
         "Access to all basic membership features",
@@ -30,7 +30,7 @@
       "name": "Annual Membership",
       "description": "Access to gym facilities for one year.",
       "price": 499.99,
-      "duration": "yearly",
+      "duration": "Yearly",
       "img":"./img/primium.jpg",
       "features": [
         "Access to all basic membership features",
